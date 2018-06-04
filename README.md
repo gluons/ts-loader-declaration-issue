@@ -22,3 +22,7 @@ My webpack output `path` is `./dist`.
 Why declarations aren't in just `./dist`?
 
 That's weird. 🤔
+
+## Issue
+
+[#190](https://github.com/TypeStrong/ts-loader/issues/190)
