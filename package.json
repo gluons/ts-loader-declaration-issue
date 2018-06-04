@@ -1,0 +1,24 @@
+{
+  "name": "ts-loader-declaration-issue",
+  "version": "0.0.0",
+  "description": "A repo to repro ts-load declaration issue.",
+  "main": "./dist/hello.js",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist/*",
+    "build": "webpack"
+  },
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "8",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^4.3.1",
+    "typescript": "^2.9.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
